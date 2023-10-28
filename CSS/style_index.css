@@ -1,0 +1,36 @@
+.container {}
+
+.main_LOGO {
+    background-color: #fff;
+    width: 25%;
+    height: auto;
+}
+
+.nav_switch {}
+
+/* nav */
+#nav {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px;
+}
+
+.allProduct {}
+
+.nav_list {}
+
+.nav_list_items {}
+
+#series1 {}
+
+#series2 {}
+
+.return_btn {}
+
+/* footer */
+
+.footer {}
+
+.footer_list_item {}
