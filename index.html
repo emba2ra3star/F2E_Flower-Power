@@ -1,76 +1,40 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<title>vegetables</title>
 
-<link rel="stylesheet" href="./CSS/normalize.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Sans:wght@400;700;900&family=Space+Mono&display=swap"
-    rel="stylesheet">
-<link rel="stylesheet" href="./CSS/style_global.css">
-<link rel="stylesheet" href="./CSS/style_index.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower Power</title>
+    <!-- <link rel="shortcut icon" href="./img/carrot.ico" type="image/x-icon"> -->
 
-</html>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style_global.css">
+    <link rel="stylesheet" href="./CSS/style_index.css">
+
+</head>
 
 <body class="body">
-    <div class="container">
-        <header class="headerArea">
-            <div class="header_box">
-                <h1 class="header_title head1">Vegetables</h1>
-                <div class="header_rightSideBox">
-                    <a class="header_icon" href="https://www.facebook.com/groups/1517468085196003" target="_blank"><img
-                            title="facebook" src="./img/icon_facebook.png" alt="link to facebook"></a>
-                    <a  class="header_icon" href="https://www.instagram.com/ntuedtd_ig/" target="_blank"><img
-                            title="instagram" src="./img/icon_instagram.png" alt="link to instagram"></a>
-                    <div class="vertical_line"></div>
-                    <a class="header_btn text1" href="./backToHomepage.html">login</a>
-                    <a class="header_btn text1" href="./backToHomepage.html">join</a>
-                </div>
-            </div>
+    <main class="container">
+        <img class="main_LOGO" src="" alt="Flower Power">
+        <p class="nav_switch" onclick="toggleNavigation()">[---點擊此處---]</p>
+        <!-- toggle nav -->
+        <nav id="nav">
+            <a class="nav_list_items" href="#">所有商品</a>
+            <ul class="nav_list">
+                <li class="nav_list_items"><a id="series1" href="#">系列一</a></li>
+                <li class="nav_list_items"><a id="series2" href="#">系列二</a></li>
+            </ul>
+            <a class="return_btn" href="#">返回</a>
 
-            <nav class="nav head2">
-                <ul class="nav_list">
-                    <li class="nav_item"><a class="nav_item_title" href="./backToHomepage.html">Home</a></li>
-                    <li class="nav_item"><a class="nav_item_title" href="./backToHomepage.html">About Us</a></li>
-                    <li class="nav_item"><a class="nav_item_title" href="./backToHomepage.html">Vegetables</a></li>
-                    <li class="nav_item"><a class="nav_item_title" href="./backToHomepage.html">Oline</a></li>
-                    <li class="nav_item"><a class="nav_item_title" href="./backToHomepage.html">Contact</a></li>
+            <footer class="footer">
+                <ul>
+                    <li class="footer_list_item"><a href="#">常見問題</a></li>
+                    <li class="footer_list_item"><a href="#">關於我們</a></li>
+                    <li class="footer_list_item">版權宣告</li>
                 </ul>
-            </nav>
-        </header>
-
-        <main>
-            <img class="main_img" src="./img/vegetables/img_main_pumpkin.png" alt="pumpkin">
-            <div class="main_secondBox">
-                <div class="main_leftBox">
-                    <h2 class="leftBox_title head2">vegetables</h2>
-                    <div class="leftBox_content">
-                        <img class="leftBox_img" src="./img/vegetables/img_vegetables_carrot.png" alt="carrot">
-                        <img class="leftBox_img" src="./img/vegetables/img_vegetables_corn.png" alt="corn">
-                        <img class="leftBox_img" src="./img/vegetables/img_vegetables_pepper.png" alt="pepper">
-                    </div>
-                </div>
-                <div class="main_rightBox">
-                    <h2 class="rightBox_title head2">Contact</h2>
-                    <div class="rightBox_content">
-                        <p class="rightBox_text text2">
-                            For any questions or suggestions about Vegetables, Vegetables
-                            Club or your online order you can contact Vegetables Customer
-                            Service by phone, email or post and we’ll be happy to help.
-                        </p>
-                        <div class="horizontal_line"></div>
-                        <p class="rightBox_info text2">
-                            E-mail : Vegetables@aaabbccc.com <br>
-                            PHONE : +886-123-456-789
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-    <footer class="footer">
-        <p class="text2">Copyrights 2017 Vegetables cise / Design by Vegetables</p>
-    </footer>
+            </footer>
+        </nav>
+    </main>
+    <script src="./script/js_index.js"></script>
 </body>
+
+</html>
