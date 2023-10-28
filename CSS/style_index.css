@@ -1,26 +1,62 @@
-.container {}
+.body{
+    background-image:url(../img/螢幕擷取畫面\ 2023-10-28\ 161659.png);
+}
+
+.container{
+    height: 100vh;
+    margin-top: 0;
+}
+
+.LOGO-TAP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25%;
+    gap: 15vh;
+}
 
 .main_LOGO {
     background-color: #fff;
-    width: 25%;
+    width: 80%;
     height: auto;
+    margin-bottom: 36px;
 }
 
-.nav_switch {}
+#nav_switch {
+
+}
 
 /* nav */
-#nav {
+#nav_toggle {
     display: none;
-    position: absolute;
-    top: 50%;
-    background: #fff;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    padding: 12px;
 }
 
-.nav_list {}
+.nav{
+    flex-direction: column;
+    align-items: center;
+    background:rgba(255, 255, 255, 0.75);
+    position: absolute;
+    width: 24rem;
+    height: inherit;
+    /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2); */
+    padding: 24px 12px 0;
+}
 
-.nav_list_items {}
+.nav_list {
+    border: 2px solid #000;
+    border-left: none;
+    border-right: none;
+    padding: 1rem 0;
+    list-style: none;
+}
+
+.nav_list_items {
+    color: #000;
+    text-decoration: none;
+}
+.nav_list_items:hover {
+    scale: 1.5;
+}
 
 #series1 {}
 
@@ -31,5 +67,10 @@
 /* footer */
 
 .footer {}
+
+.footer_list{
+    padding: 0;
+    list-style: none;
+}
 
 .footer_list_item {}
