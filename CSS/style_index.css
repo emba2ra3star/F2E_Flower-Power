@@ -1,5 +1,7 @@
 .body{
     background-image:url(../img/螢幕擷取畫面\ 2023-10-28\ 161659.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -48,26 +50,27 @@
     list-style: none;
 }
 
-.nav_list_items{
+.nav_list_btns{
+    color: #000;
+    text-decoration: none;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+.nav_list_btns:hover {
+    scale: 1.2;
+}
 
 .nav_list_link {
-    color: #000;
-    text-decoration: none;
-}
-.nav_list_items:hover {
-    scale: 1.5;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 #series1 {}
 
 #series2 {}
 
-.return_btn {
-    
-    text-decoration: none;
+#return_btn{
+    color: #595959;
 }
 
 /* footer */
