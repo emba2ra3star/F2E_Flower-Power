@@ -22,9 +22,7 @@
     margin-bottom: 36px;
 }
 
-#nav_switch {
-
-}
+#nav_switch {}
 
 /* nav */
 #nav_toggle {
@@ -46,11 +44,16 @@
     border: 2px solid #000;
     border-left: none;
     border-right: none;
-    padding: 1rem 0;
+    padding: 0px 1.5rem;
     list-style: none;
 }
 
-.nav_list_items {
+.nav_list_items{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav_list_link {
     color: #000;
     text-decoration: none;
 }
@@ -62,7 +65,10 @@
 
 #series2 {}
 
-.return_btn {}
+.return_btn {
+    
+    text-decoration: none;
+}
 
 /* footer */
 
