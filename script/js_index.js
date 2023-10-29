@@ -14,7 +14,7 @@ $(document).ready(function(){
     })
     // 系列2
     $("#series2").mouseenter(function(){
-        $(".body").css("background-image",'url("../img/螢幕擷取畫面\ 2023-10-29\ 171151.png")')
+        $(".body").css("background-image",'url("../img/test_img2.png")')
     })
 });
 
