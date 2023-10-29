@@ -14,7 +14,7 @@ $(document).ready(function(){
     })
     // 系列2
     $("#series2").mouseenter(function(){
-        $(".body").css("background-image",'url("../img/test_img2.png")')
+        $(".body").css("background-image",'url("../img/test_img1.png")')
     })
 });
 
