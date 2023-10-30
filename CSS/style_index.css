@@ -39,7 +39,14 @@
     width: 24rem;
     height: inherit;
     /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2); */
-    padding: 24px 12px 0;
+    padding: 10% 12px 0;
+}
+
+.nav_area{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    width: 100%;
 }
 
 .nav_list {
@@ -75,7 +82,10 @@
 
 /* footer */
 
-.footer {}
+.footer {
+    position: fixed;
+    bottom: 0;
+}
 
 .footer_list{
     padding: 0;
