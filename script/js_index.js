@@ -10,11 +10,11 @@ $(document).ready(function(){
     });
     // 系列1
     $("#series1").mouseenter(function(){
-        $(".body").css("background-image",'url("../img/pff.svg")')
+        $(".body").css("background-image",'url("./img/pff.svg")')
     })
     // 系列2
     $("#series2").mouseenter(function(){
-        $(".body").css("background-image",'url("../img/test_img1.png")')
+        $(".body").css("background-image",'url("./img/test_img1.png")')
     })
 });
 
